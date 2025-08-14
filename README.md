@@ -83,29 +83,9 @@ Then visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🧪 Built-in Tests
-
-Click the **"Tests"** button in the app to run basic assertions in the console.
-You should see **"All tests passed"** if everything is correct.
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your app here)*
-
----
-
 ## 🌐 Live Demo
 
 *(If deployed on Vercel/Netlify, add link here)*
 
 ---
 
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-If you want, I can also make you a **visually appealing GitHub README with badges, screenshots, and a feature table** so it stands out to recruiters. That would make this project look professional on your profile.
