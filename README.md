@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s a polished `README.md` for your project based on the task details and the fact that you built it with **Next.js** using **pnpm**:
 
-## Getting Started
+---
 
-First, run the development server:
+# Student Data Manager — Temporary Data
+
+A **Next.js** application to manage student records with add, view, edit, delete, search, and sort features — all stored temporarily in state (no backend). Includes a custom **fuzzy search** implementation without external libraries.
+
+## 🚀 Features
+
+### Core
+
+* **Add Student Form** with validation:
+
+  * Roll Number (unique)
+  * Name
+  * Department (CSE, ECE, ME, CE, EE)
+  * Year (1, 2, 3, 4)
+  * CGPA (0–10)
+* **Student Table** with:
+
+  * Edit
+  * Delete
+* **Search & Sort**
+
+  * Search by Roll Number or Name (case-insensitive, accent-insensitive, typo-tolerant)
+  * Sort by CGPA (High → Low / Low → High)
+  * Sort by Name (A → Z / Z → A)
+  * Department and Year filters
+* **Fuzzy Search** (custom `isFuzzyMatch` helper)
+* **Built-in Tests** button with `console.assert` checks
+
+### Accessibility & UX
+
+* Proper labels for all inputs
+* Clear button text
+* Keyboard navigation support
+
+### Bonus (if implemented)
+
+* Pagination (5–10 rows per page)
+* Reset Filters button
+* Light/Dark mode toggle
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework**: [Next.js](https://nextjs.org/)
+* **Language**: JavaScript (React Functional Components + Hooks)
+* **Package Manager**: pnpm
+* **Styling**: Tailwind CSS (if used)
+
+---
+
+## 📦 Installation
+
+Make sure you have **pnpm** installed globally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g pnpm
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Clone the repository and install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ▶️ Running the Project
 
-To learn more about Next.js, take a look at the following resources:
+Start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Then visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Built-in Tests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click the **"Tests"** button in the app to run basic assertions in the console.
+You should see **"All tests passed"** if everything is correct.
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of your app here)*
+
+---
+
+## 🌐 Live Demo
+
+*(If deployed on Vercel/Netlify, add link here)*
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+If you want, I can also make you a **visually appealing GitHub README with badges, screenshots, and a feature table** so it stands out to recruiters. That would make this project look professional on your profile.
