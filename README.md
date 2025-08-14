@@ -85,7 +85,7 @@ Then visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🌐 Live Demo
 
-*(If deployed on Vercel/Netlify, add link here)*
+Link - https://student-database-sandy.vercel.app/
 
 ---
 
