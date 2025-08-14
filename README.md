@@ -45,7 +45,7 @@ A **Next.js** application to manage student records with add, view, edit, delete
 * **Framework**: [Next.js](https://nextjs.org/)
 * **Language**: JavaScript (React Functional Components + Hooks)
 * **Package Manager**: pnpm
-* **Styling**: Tailwind CSS (if used)
+* **Styling**: Tailwind CSS 
 
 ---
 
