@@ -1,7 +1,3 @@
-Here’s a polished `README.md` for your project based on the task details and the fact that you built it with **Next.js** using **pnpm**:
-
----
-
 # Student Data Manager — Temporary Data
 
 A **Next.js** application to manage student records with add, view, edit, delete, search, and sort features — all stored temporarily in state (no backend). Includes a custom **fuzzy search** implementation without external libraries.
