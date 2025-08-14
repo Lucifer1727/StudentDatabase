@@ -64,7 +64,7 @@ npm install -g pnpm
 Clone the repository and install dependencies:
 
 ```bash
-git clone [https://github.com/Lucifer1727/StudentDatabase.git]
+git clone https://github.com/Lucifer1727/StudentDatabase.git
 cd StudentDatabase
 pnpm install
 ```
